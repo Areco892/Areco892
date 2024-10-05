@@ -8,7 +8,7 @@
     @return int32_t, 1 for valid ASCII and 0 for invalid ASCII*/
 int32_t is_ascii(char str[]){
     int index = 0;
-
+    
     /* Iterate through the entire array, if a character is not 
         ASCII, return 0.
     */
